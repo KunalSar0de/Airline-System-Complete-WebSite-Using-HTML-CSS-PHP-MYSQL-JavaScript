@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style5.css">
+
+
+
+</head>
+<body>
+	<div class="flex">
+		<div class="contact-section">
+			<h1>Contact Us</h1>
+			<form class="contact-form"action="e1.html"method="post">
+				<input type="text" class="contact-form-text" placeholder="Your Name">
+				<input type="email" class="contact-form-text" placeholder="Your Email">
+				<input type="text" class="contact-form-text" placeholder="Your Phone">
+				<textarea class="contact-form-text" placeholder="Your massage"></textarea>
+				<input type="submit" name="submit"class="contact-form-btn"value="Send Massage">
+			</form>
+
+
+<div class="status">
+
+<?php
+if(isset($_POST['submit']))
+$name = $_POST['name'];
+$visitor_email = $_POST['email'];
+$message = $_POST['message'];
+
+
+$email_from = 'EasyTutorials@avinashkr.com';
+
+$email_subject = "New Form Submission";
+
+$email_body = "User Name: $name.\n".
+"User Email: $visitor_email.\n".
+"User Message: $message.\n";
+
+
+$to = "Your E-Mail";
+
+$headers = "From: $email_from \r\n";
+
+$headers .= "Reply To: $visitor_email \r\n";
+
+mail($to,email_subject,$email_body,$headers);
+
+header("Location: Website Name");
+
+
+
+?>
+
+</div>
+
+		</div>
+	</div>
+</body>

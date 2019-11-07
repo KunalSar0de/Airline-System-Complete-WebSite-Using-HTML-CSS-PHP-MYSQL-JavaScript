@@ -1,0 +1,201 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.flex{
+	height: 87%;
+	width: 24%;
+	background: #000;
+	border-radius: 20px;
+	position: absolute;
+	top: 5%;
+	left:2%;
+}
+.flex2{
+	height: 40%;
+	width: 40%;
+	background: #fff;
+	padding:20px;
+	border:2px solid #000 ;
+	border-radius: 5px;
+	position: absolute;
+	top: 20%;
+	left:50%;
+	font-family: consolas;
+	text-align: left;
+ 	
+}
+.booking-box{
+	max-width: 280px;
+	height: 580px;
+	border:2px solid #ced4da;
+	border-radius: 5px;
+	position: absolute;
+	top: 5%;
+	left: 4%;
+
+}
+
+
+.radio-btn{
+	margin: 5px 2px;
+
+}
+
+.radio-btn span{
+	color: #fff;
+	margin-right: 5px;
+	font-size: 12px;
+}
+.booking-form{
+	padding: 0 0px 0px;
+}
+.booking-form label{
+	margin-bottom: 9px;
+	margin-top: 10px;
+	font-size: 12px;
+	color: #fff;
+
+}
+.booking-form option{
+		color: #333; 
+}
+
+input::placeholder{
+	color:#fff ! important;
+}
+.input-grp{
+	width: 140px;
+	display: inline-block;
+}
+.form-control{
+	font-size: 12px ! important;
+	border-radius: 2px ! important;
+	color: #fff ! important;
+	background:transparent ! important;
+	box-shadow: none ! important;
+}
+.form-control object{
+	background-color: #000;
+	color: #fff;
+}
+.custom-select{
+	color: white !important;
+	background-color: #000 !important;
+	font-size: 12px !important;
+	border:2px solid #fff !important;
+	box-shadow: none !important;
+	border-radius: 0 !important;
+}
+.custom-select option{
+	color: white;
+
+}
+.flight{
+	width: 80%;
+	padding: 10px 0;
+	position: absolute;
+	left: 30px;
+	top: 85%;
+	font-size: 12px !important;
+	border:2px solid #ced4da !important;
+	background:transparent !important;
+	box-shadow: 2px !important;
+	border-radius: 3px !important;
+}
+.flight{
+	border: 2px solid #fff;
+	/*padding: 10px 30px;*/
+	color:#fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.flight:hover{
+	background:#fff!important;
+	color: #000!important;
+	transition: 0.5s ; 
+}
+
+.data {
+	color: black !important;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	font-size: 1.2rem;
+
+}
+
+.input-grp1{
+	width: 10%;
+	display: inline-block;
+}
+.button{
+	height: 110%;
+	width: 20%;
+	padding: 10px 0;
+	position: absolute;
+	left: 80%;
+	top: 35%;
+	font-size: 12px !important;
+	border:2px solid #ced4da !important;
+	background:transparent !important;
+	box-shadow: 2px !important;
+	border-radius: 3px !important;
+}
+.button{
+	border: 2px solid #fff;
+	/*padding: 10px 30px;*/
+	color:#fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.button:hover{
+	background:#fff!important;
+	color: #000!important;
+	transition: 0.5s ; 
+}
+
+
+
+.button1{
+	position: absolute;
+	top: 40%;
+	left: 88.5%;
+	height: 81%;
+	width: 7%;
+	font-size: 1.2rem;
+	color: black;
+}
+.btn{
+	/*border: 2px solid #fff !important;*/
+	/*padding: 10px 30px;*/
+	color:white !important ;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover{
+	background-color:#99ff99;
+    color:#fff !important;	
+}
+
+.flx{
+	height: 7%;
+	width: 90%;
+	background: #fff;
+	border-radius: 4px;
+	
+}
+.tex{
+	position: absolute;
+	top: 2%;
+	left: 85%;
+}
+
+.logout{
+	position: absolute;
+	top: 2%;
+	left: 70%;
+}

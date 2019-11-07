@@ -1,0 +1,39 @@
+body{
+	background-color: rgba(27,34,25,0.8);
+}
+h1{
+	font-family: Angellina;
+	font-size: 3.0rem;
+	color: #ff4d4d;
+	line-height: 1.4;
+	text-align: center;
+	margin-top: 10px;
+	padding: 5px 0.5px;
+}
+
+.main{
+	width: 65%;
+	height: 480px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform:translate(-50%,-50%); 
+	background-image: url(pl_1.jpg);
+	background-size: 100% 100%;
+	box-shadow: 1px 2px 10px 8px black;
+	animation:slider 60s infinite linear;
+
+}
+
+@keyframes slider{
+	0%{background-image: url(pl_1.jpg);}
+	10%{background-image: url(pl_2.jpg);}
+	20%{background-image: url(pl_3.jpg);}
+	30%{background-image: url(pl_4.jpg);}
+	40%{background-image: url(hot_1.jpg);}
+	50%{background-image: url(hot_2.jpg);}
+	60%{background-image: url(hot_3.jpg);}
+	70%{background-image: url(hot_4.jpg);}
+	80%{background-image: url(tax_2.jpg);}
+	90%{background-image: url(tax_4.jpg);}
+}
